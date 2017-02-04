@@ -1,0 +1,7 @@
+fields:
+    quiz_title:
+        label: Quiz
+        oc.commentPosition: ''
+        span: auto
+        required: 1
+        type: text

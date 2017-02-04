@@ -1,0 +1,28 @@
+plugin:
+    name: 'zhafri.coursemaker::lang.plugin.name'
+    description: 'zhafri.coursemaker::lang.plugin.description'
+    author: zhafri
+    icon: oc-icon-adjust
+    homepage: ''
+permissions:
+    user:
+        tab: user
+        label: user
+navigation:
+    main-menu-item:
+        label: 'zhafri.coursemaker::lang.plugin.name'
+        url: zhafri/coursemaker/courses
+        icon: icon-university
+        sideMenu:
+            side-menu-item:
+                label: Course
+                url: zhafri/coursemaker/courses
+                icon: icon-sitemap
+            side-menu-item2:
+                label: Lesson
+                url: zhafri/coursemaker/lessons
+                icon: icon-sitemap
+            side-menu-item3:
+                label: Quiz
+                url: zhafri/coursemaker/quizzes
+                icon: icon-sitemap

@@ -1,0 +1,10 @@
+columns:
+    id:
+        label: 'Course ID'
+        type: number
+    course_title:
+        label: 'Course Name'
+        type: text
+    course_description:
+        label: Description
+        type: text

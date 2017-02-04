@@ -1,0 +1,41 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+tabs:
+    defaultTab: Details
+    fields:
+        name: 
+            label: Course Name
+            comment: Enter a subject name for the course.
+
+        description:
+            label: Description
+            type: richeditor
+            size: huge
+
+        lesson:
+            label: Lesson
+            type: partial
+            path: field_lessons
+            tab: Lesson
+
+        quiz:
+            label: Quiz
+            type: partial
+            path: field_quizzes
+            tab: Quiz
+
+        featured_image:
+            label: Logo
+            type: fileupload
+            mode: image
+            imageWidth: 200
+            imageHeight: 200
+            comment: Please upload your logo or image here
+
+        featured_video:
+            label: Video
+            type: fileupload
+            mode: file
+            comment: Please upload your video here

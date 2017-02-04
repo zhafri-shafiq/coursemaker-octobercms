@@ -1,0 +1,22 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    name:
+        label: Name
+        
+    featured_image:
+        label: Image
+        type: fileupload
+        mode: image
+        imageWidth: 200
+        imageHeight: 200
+        comment: Upload your lesson's image here
+
+    featured_video:
+        label: Video
+        type: fileupload
+        mode: file
+        comment: Upload your lesson's video here
+

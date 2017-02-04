@@ -1,0 +1,10 @@
+name: Lessons
+form: $/zhafri/coursemaker/models/lesson/fields.yaml
+modelClass: Zhafri\Coursemaker\Models\Lesson
+defaultRedirect: zhafri/coursemaker/lessons
+create:
+    redirect: 'zhafri/coursemaker/lessons/update/:id'
+    redirectClose: zhafri/coursemaker/lessons
+update:
+    redirect: zhafri/coursemaker/lessons
+    redirectClose: zhafri/coursemaker/lessons

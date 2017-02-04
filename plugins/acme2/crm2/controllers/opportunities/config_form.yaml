@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Opportunity
+
+# Model Form Field configuration
+form: $/acme2/crm2/models/opportunity/fields.yaml
+
+# Model Class name
+modelClass: Acme2\Crm2\Models\Opportunity
+
+# Default redirect location
+defaultRedirect: acme2/crm2/opportunities
+
+# Create page
+create:
+    title: Create Opportunity
+    redirect: acme2/crm2/opportunities/update/:id
+    redirectClose: acme2/crm2/opportunities
+
+# Update page
+update:
+    title: Edit Opportunity
+    redirect: acme2/crm2/opportunities
+    redirectClose: acme2/crm2/opportunities
+
+# Preview page
+preview:
+    title: Preview Opportunity

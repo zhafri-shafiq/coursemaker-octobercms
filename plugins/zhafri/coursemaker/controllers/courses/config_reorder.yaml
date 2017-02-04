@@ -1,0 +1,5 @@
+title: Courses
+modelClass: Zhafri\Coursemaker\Models\Course
+nameFrom: course_title
+toolbar:
+    buttons: reorder_toolbar

@@ -1,0 +1,4 @@
+title: Quizzes
+modelClass: Zhafri\Coursemaker\Models\Quiz
+toolbar:
+    buttons: reorder_toolbar

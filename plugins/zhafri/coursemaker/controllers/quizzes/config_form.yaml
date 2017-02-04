@@ -1,0 +1,10 @@
+name: Quizzes
+form: $/zhafri/coursemaker/models/quiz/fields.yaml
+modelClass: Zhafri\Coursemaker\Models\Quiz
+defaultRedirect: zhafri/coursemaker/quizzes
+create:
+    redirect: 'zhafri/coursemaker/quizzes/update/:id'
+    redirectClose: zhafri/coursemaker/quizzes
+update:
+    redirect: zhafri/coursemaker/quizzes
+    redirectClose: zhafri/coursemaker/quizzes

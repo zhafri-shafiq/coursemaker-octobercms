@@ -1,0 +1,6 @@
+plugin:
+    name: 'admin.coursemaker::lang.plugin.name'
+    description: 'admin.coursemaker::lang.plugin.description'
+    author: admin
+    icon: oc-icon-adjust
+    homepage: ''

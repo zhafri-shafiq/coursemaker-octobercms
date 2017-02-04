@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Course
+
+# Model Form Field configuration
+form: $/admin/coursemaker/models/course/fields.yaml
+
+# Model Class name
+modelClass: Admin\Coursemaker\Models\Course
+
+# Default redirect location
+defaultRedirect: admin/coursemaker/courses
+
+# Create page
+create:
+    title: Create Course
+    redirect: admin/coursemaker/courses/update/:id
+    redirectClose: admin/coursemaker/courses
+
+# Update page
+update:
+    title: Edit Course
+    redirect: admin/coursemaker/courses
+    redirectClose: admin/coursemaker/courses
+
+# Preview page
+preview:
+    title: Preview Course

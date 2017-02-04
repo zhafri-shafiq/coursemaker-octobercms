@@ -1,0 +1,6 @@
+1.0.1:
+    - Initialize plugin.
+    - First version of coursemaker
+    - create_courses_table.php
+    - create_lessons_table.php
+    - create_quizzes_table.php

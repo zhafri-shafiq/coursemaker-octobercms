@@ -1,0 +1,15 @@
+lesson:
+    label: Lesson
+    view:
+        list: $/admin/coursemaker/models/lesson/columns.yaml
+        toolbarButtons: create|delete
+    manage:
+        form: $/admin/coursemaker/models/lesson/fields.yaml
+
+quiz:
+    label: Quiz
+    view:
+        list: $/admin/coursemaker/models/quiz/columns.yaml
+        toolbarButtons: create|delete
+    manage:
+        form: $/admin/coursemaker/models/quiz/fields.yaml

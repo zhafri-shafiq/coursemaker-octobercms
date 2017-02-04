@@ -1,0 +1,10 @@
+columns:
+    id:
+        label: 'Quiz ID'
+        type: number
+    quiz_title:
+        label: Quiz
+        type: text
+    course_id:
+        label: 'Course ID'
+        type: number

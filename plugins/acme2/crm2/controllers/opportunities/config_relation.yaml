@@ -1,0 +1,31 @@
+offerings:
+    label: Offering
+    view:
+        list: $/acme2/crm2/models/opportunityofferingpivot/columns.yaml
+        toolbarButtons: add|remove
+    manage:
+        showSearch: true
+        recordsPerPage: 10
+        list: $/acme2/crm2/models/offering/columns.yaml
+    pivot:
+        form: $/acme2/crm2/models/opportunityofferingpivot/fields.yaml
+            
+
+notes:
+    label: Note
+    view: 
+        list: $/acme2/crm2/models/note/columns.yaml
+        toolbarButtons: create|delete
+    manage:
+        form: $/acme2/crm2/models/note/fields.yaml
+
+contacts:
+    label: Contact
+    view:
+        list: $/acme2/crm2/models/contact/columns.yaml
+        toolbarButtons: create|add|remove
+    manage:
+        showSearch: true
+        recordsPerPage: 10
+        list: $/acme2/crm2/models/contact/columns.yaml
+        form: $/acme2/crm2/models/contact/fields.yaml

@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Project
+
+# Model Form Field configuration
+form: $/zhafri/sitepointdemo/models/project/fields.yaml
+
+# Model Class name
+modelClass: Zhafri\SitepointDemo\Models\Project
+
+# Default redirect location
+defaultRedirect: zhafri/sitepointdemo/projects
+
+# Create page
+create:
+    title: Create Project
+    redirect: zhafri/sitepointdemo/projects/update/:id
+    redirectClose: zhafri/sitepointdemo/projects
+
+# Update page
+update:
+    title: Edit Project
+    redirect: zhafri/sitepointdemo/projects
+    redirectClose: zhafri/sitepointdemo/projects
+
+# Preview page
+preview:
+    title: Preview Project
